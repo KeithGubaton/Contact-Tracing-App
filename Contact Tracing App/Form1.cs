@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,9 +36,15 @@ namespace Contact_Tracing_App
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form F2 = new Form2();
-            F2.ShowDialog();
+            StreamWriter outputFile;
+            outputFile = File.AppendText("Data Entry-" + txtDate.Text);
+            outputFile.WriteLine("Name:" + txtName.Text);
+            outputFile.WriteLine("Age:" + txtAge.Text);
+            outputFile.WriteLine("Address: " + txtAddress.Text);
+            outputFile.WriteLine("Contact Number: " + txtContact.Text);
+            outputFile.WriteLine("Date: " + txtDate.Text);
+            outputFile.WriteLine("Time: " + txtTime.Text);
+            outputFile.Close();
         }
     }
 }
