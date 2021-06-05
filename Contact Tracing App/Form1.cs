@@ -27,5 +27,17 @@ namespace Contact_Tracing_App
             txtTime.Clear();
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnEnter_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form F2 = new Form2();
+            F2.ShowDialog();
+        }
     }
 }

@@ -54,6 +54,7 @@ namespace Contact_Tracing_App
             this.btnEnter.TabIndex = 0;
             this.btnEnter.Text = "Enter";
             this.btnEnter.UseVisualStyleBackColor = true;
+            this.btnEnter.Click += new System.EventHandler(this.btnEnter_Click);
             // 
             // labelname
             // 
@@ -127,6 +128,7 @@ namespace Contact_Tracing_App
             this.btnExit.TabIndex = 9;
             this.btnExit.Text = "Exit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // txtName
             // 
@@ -174,7 +176,8 @@ namespace Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 209);
+            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.ClientSize = new System.Drawing.Size(313, 193);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.txtTime);
             this.Controls.Add(this.txtDate);
@@ -191,7 +194,7 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.labelname);
             this.Controls.Add(this.btnEnter);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Contact Tracing App";
             this.ResumeLayout(false);
             this.PerformLayout();
 
