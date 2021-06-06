@@ -36,15 +36,35 @@ namespace Contact_Tracing_App
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
+            
+
             StreamWriter outputFile;
-            outputFile = File.AppendText("Data Entry-" + txtDate.Text);
+
+            String createDate = DateTime.Now.ToLongDateString();
+
+            outputFile = File.AppendText("Data-" + createDate + ".txt");
             outputFile.WriteLine("Name:" + txtName.Text);
             outputFile.WriteLine("Age:" + txtAge.Text);
             outputFile.WriteLine("Address: " + txtAddress.Text);
             outputFile.WriteLine("Contact Number: " + txtContact.Text);
             outputFile.WriteLine("Date: " + txtDate.Text);
             outputFile.WriteLine("Time: " + txtTime.Text);
+            outputFile.WriteLine("================================");
             outputFile.Close();
+        }
+
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 F2 = new Form2();
+            F2.Show();
+            
+            
+
+           // while ( !inputFile.EndOfStream )
+           // {
+            //    MessageBox.Show(inputFile.ReadLine());
+            //}
         }
     }
 }

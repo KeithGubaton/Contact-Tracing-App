@@ -1,0 +1,98 @@
+Name:
+Age:
+Address: 
+Contact Number: 
+Date: 
+Time: 
+================================
+Name:pls 
+Age:
+Address: lang
+Contact Number: gumana
+Date: ka 
+Time: na
+================================
+Name:pls
+Age:pls
+Address: lang
+Contact Number: pls 
+Date: pls
+Time: pls
+================================
+Name:asd
+Age:1
+Address: dawd
+Contact Number: qdwwdawdda
+Date: wa
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:a
+Age:a
+Address: a
+Contact Number: a
+Date: a
+Time: a
+================================
+Name:Mintaka
+Age:3
+Address: Cupang
+Contact Number: 0982738122
+Date: June 6, 2020
+Time: 08:49pm
+================================
+Name:sda
+Age:asd
+Address: asdas
+Contact Number: dasdasd
+Date: adsaddasd
+Time: dsad
+================================
+Name:aas
+Age:asd
+Address: awd
+Contact Number: awda
+Date: awawa
+Time: awaw
+================================

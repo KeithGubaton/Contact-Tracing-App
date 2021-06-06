@@ -44,6 +44,7 @@ namespace Contact_Tracing_App
             this.txtDate = new System.Windows.Forms.TextBox();
             this.txtTime = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
+            this.btnDisplay = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEnter
@@ -122,7 +123,7 @@ namespace Contact_Tracing_App
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(219, 81);
+            this.btnExit.Location = new System.Drawing.Point(219, 110);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -172,12 +173,23 @@ namespace Contact_Tracing_App
             this.txtAge.Size = new System.Drawing.Size(100, 23);
             this.txtAge.TabIndex = 15;
             // 
+            // btnDisplay
+            // 
+            this.btnDisplay.Location = new System.Drawing.Point(219, 81);
+            this.btnDisplay.Name = "btnDisplay";
+            this.btnDisplay.Size = new System.Drawing.Size(75, 23);
+            this.btnDisplay.TabIndex = 16;
+            this.btnDisplay.Text = "Display";
+            this.btnDisplay.UseVisualStyleBackColor = true;
+            this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(313, 193);
+            this.Controls.Add(this.btnDisplay);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.txtTime);
             this.Controls.Add(this.txtDate);
@@ -218,6 +230,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.TextBox txtTime;
+        private System.Windows.Forms.Button btnDisplay;
     }
 }
 

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,28 @@ namespace Contact_Tracing_App
             InitializeComponent();
         }
 
-        
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            String[] file = Directory.GetFiles(".", "Data-*");
+            int i = 0;
+            string createDate = "";
+            while (i<file.Length)
+            {
+                string filename = file[i];
+                filename = filename.Replace(".\\Data-", "");
+                filename = filename.Replace(".txt", "");
+                i++;
+
+                if (SearchBox.Text == filename)
+                {
+                    createDate = filename;
+                }
+            }
+
+            StreamReader inputFile;
+            inputFile = File.OpenText("Data-" + createDate + ".txt");
+            txtHistory.Text = inputFile.ReadToEnd();
+            inputFile.Close();
+        }
     }
 }
