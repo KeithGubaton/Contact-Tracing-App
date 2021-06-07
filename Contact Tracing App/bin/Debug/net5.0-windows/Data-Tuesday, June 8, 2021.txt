@@ -1,0 +1,14 @@
+Name:
+Age:
+Address: 
+Contact Number: 
+Date: 
+Time: 
+================================
+Name:Kit
+Age:19
+Address: Antipolo City
+Contact Number: 09651128937
+Date: 6/8/2021
+Time: 12:30 AM
+================================

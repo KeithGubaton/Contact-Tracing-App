@@ -96,3 +96,17 @@ Contact Number: awda
 Date: awawa
 Time: awaw
 ================================
+Name:Kit
+Age:fdgd
+Address: Cupang
+Contact Number: hatdiog
+Date: dfgdsf
+Time: dgfwf
+================================
+Name:Keith Angeline D. Gubaton
+Age:19
+Address: Blk 7 Lot 8 Puro 5 Zone 8 Cupang, Antipolo City
+Contact Number: 09651128937
+Date: 06/06/2021
+Time: 10:37 PM
+================================

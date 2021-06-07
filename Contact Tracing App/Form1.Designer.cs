@@ -29,6 +29,7 @@ namespace Contact_Tracing_App
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnEnter = new System.Windows.Forms.Button();
             this.labelname = new System.Windows.Forms.Label();
             this.labelAddress = new System.Windows.Forms.Label();
@@ -45,11 +46,15 @@ namespace Contact_Tracing_App
             this.txtTime = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
             this.btnDisplay = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(219, 20);
+            this.btnEnter.Location = new System.Drawing.Point(216, 103);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(75, 23);
             this.btnEnter.TabIndex = 0;
@@ -60,7 +65,7 @@ namespace Contact_Tracing_App
             // labelname
             // 
             this.labelname.AutoSize = true;
-            this.labelname.Location = new System.Drawing.Point(22, 23);
+            this.labelname.Location = new System.Drawing.Point(19, 106);
             this.labelname.Name = "labelname";
             this.labelname.Size = new System.Drawing.Size(39, 15);
             this.labelname.TabIndex = 1;
@@ -69,7 +74,7 @@ namespace Contact_Tracing_App
             // labelAddress
             // 
             this.labelAddress.AutoSize = true;
-            this.labelAddress.Location = new System.Drawing.Point(22, 77);
+            this.labelAddress.Location = new System.Drawing.Point(19, 160);
             this.labelAddress.Name = "labelAddress";
             this.labelAddress.Size = new System.Drawing.Size(49, 15);
             this.labelAddress.TabIndex = 3;
@@ -78,7 +83,7 @@ namespace Contact_Tracing_App
             // labelContact
             // 
             this.labelContact.AutoSize = true;
-            this.labelContact.Location = new System.Drawing.Point(22, 103);
+            this.labelContact.Location = new System.Drawing.Point(19, 186);
             this.labelContact.Name = "labelContact";
             this.labelContact.Size = new System.Drawing.Size(71, 15);
             this.labelContact.TabIndex = 4;
@@ -87,7 +92,7 @@ namespace Contact_Tracing_App
             // labelDate
             // 
             this.labelDate.AutoSize = true;
-            this.labelDate.Location = new System.Drawing.Point(22, 129);
+            this.labelDate.Location = new System.Drawing.Point(19, 212);
             this.labelDate.Name = "labelDate";
             this.labelDate.Size = new System.Drawing.Size(31, 15);
             this.labelDate.TabIndex = 5;
@@ -96,7 +101,7 @@ namespace Contact_Tracing_App
             // labelTime
             // 
             this.labelTime.AutoSize = true;
-            this.labelTime.Location = new System.Drawing.Point(22, 156);
+            this.labelTime.Location = new System.Drawing.Point(19, 239);
             this.labelTime.Name = "labelTime";
             this.labelTime.Size = new System.Drawing.Size(33, 15);
             this.labelTime.TabIndex = 6;
@@ -105,7 +110,7 @@ namespace Contact_Tracing_App
             // labelage
             // 
             this.labelage.AutoSize = true;
-            this.labelage.Location = new System.Drawing.Point(25, 49);
+            this.labelage.Location = new System.Drawing.Point(22, 132);
             this.labelage.Name = "labelage";
             this.labelage.Size = new System.Drawing.Size(28, 15);
             this.labelage.TabIndex = 7;
@@ -113,7 +118,7 @@ namespace Contact_Tracing_App
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(219, 52);
+            this.btnClear.Location = new System.Drawing.Point(216, 135);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 8;
@@ -123,7 +128,7 @@ namespace Contact_Tracing_App
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(219, 110);
+            this.btnExit.Location = new System.Drawing.Point(216, 193);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -133,49 +138,49 @@ namespace Contact_Tracing_App
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(99, 21);
+            this.txtName.Location = new System.Drawing.Point(96, 104);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(100, 23);
             this.txtName.TabIndex = 10;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(99, 74);
+            this.txtAddress.Location = new System.Drawing.Point(96, 157);
             this.txtAddress.Name = "txtAddress";
             this.txtAddress.Size = new System.Drawing.Size(100, 23);
             this.txtAddress.TabIndex = 11;
             // 
             // txtContact
             // 
-            this.txtContact.Location = new System.Drawing.Point(99, 100);
+            this.txtContact.Location = new System.Drawing.Point(96, 183);
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(100, 23);
             this.txtContact.TabIndex = 12;
             // 
             // txtDate
             // 
-            this.txtDate.Location = new System.Drawing.Point(99, 126);
+            this.txtDate.Location = new System.Drawing.Point(96, 209);
             this.txtDate.Name = "txtDate";
             this.txtDate.Size = new System.Drawing.Size(100, 23);
             this.txtDate.TabIndex = 13;
             // 
             // txtTime
             // 
-            this.txtTime.Location = new System.Drawing.Point(99, 153);
+            this.txtTime.Location = new System.Drawing.Point(96, 236);
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(100, 23);
             this.txtTime.TabIndex = 14;
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(99, 46);
+            this.txtAge.Location = new System.Drawing.Point(96, 129);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(100, 23);
             this.txtAge.TabIndex = 15;
             // 
             // btnDisplay
             // 
-            this.btnDisplay.Location = new System.Drawing.Point(219, 81);
+            this.btnDisplay.Location = new System.Drawing.Point(216, 164);
             this.btnDisplay.Name = "btnDisplay";
             this.btnDisplay.Size = new System.Drawing.Size(75, 23);
             this.btnDisplay.TabIndex = 16;
@@ -183,12 +188,34 @@ namespace Contact_Tracing_App
             this.btnDisplay.UseVisualStyleBackColor = true;
             this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(77, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(96, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(209, 75);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 18;
+            this.pictureBox2.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(313, 193);
+            this.ClientSize = new System.Drawing.Size(309, 277);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnDisplay);
             this.Controls.Add(this.txtAge);
             this.Controls.Add(this.txtTime);
@@ -207,6 +234,8 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.btnEnter);
             this.Name = "Form1";
             this.Text = "Contact Tracing App";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -231,6 +260,9 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.TextBox txtTime;
         private System.Windows.Forms.Button btnDisplay;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 

@@ -1,0 +1,7 @@
+Name:Kitang
+Age:19
+Address: Cupang, Antipolo City
+Contact Number: 09651128937
+Date: 06/06/2021
+Time: 8:00 PM
+================================

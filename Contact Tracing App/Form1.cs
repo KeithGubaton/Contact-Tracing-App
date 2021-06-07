@@ -66,5 +66,7 @@ namespace Contact_Tracing_App
             //    MessageBox.Show(inputFile.ReadLine());
             //}
         }
+
+
     }
 }

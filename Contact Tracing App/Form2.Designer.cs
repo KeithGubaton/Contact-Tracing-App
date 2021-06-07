@@ -37,7 +37,7 @@ namespace Contact_Tracing_App
             // 
             // txtHistory
             // 
-            this.txtHistory.Location = new System.Drawing.Point(12, 105);
+            this.txtHistory.Location = new System.Drawing.Point(11, 67);
             this.txtHistory.Multiline = true;
             this.txtHistory.Name = "txtHistory";
             this.txtHistory.Size = new System.Drawing.Size(477, 324);
@@ -46,7 +46,7 @@ namespace Contact_Tracing_App
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 78);
+            this.label1.Location = new System.Drawing.Point(12, 49);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 1;
@@ -54,7 +54,7 @@ namespace Contact_Tracing_App
             // 
             // SearchBox
             // 
-            this.SearchBox.Location = new System.Drawing.Point(13, 36);
+            this.SearchBox.Location = new System.Drawing.Point(12, 12);
             this.SearchBox.Name = "SearchBox";
             this.SearchBox.Size = new System.Drawing.Size(395, 23);
             this.SearchBox.TabIndex = 2;
@@ -62,7 +62,7 @@ namespace Contact_Tracing_App
             // 
             // btnSearch
             // 
-            this.btnSearch.Location = new System.Drawing.Point(414, 36);
+            this.btnSearch.Location = new System.Drawing.Point(413, 12);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 3;
@@ -75,7 +75,7 @@ namespace Contact_Tracing_App
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(500, 440);
+            this.ClientSize = new System.Drawing.Size(496, 399);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.SearchBox);
             this.Controls.Add(this.label1);

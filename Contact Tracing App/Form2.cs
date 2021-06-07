@@ -16,6 +16,8 @@ namespace Contact_Tracing_App
         public Form2()
         {
             InitializeComponent();
+            txtHistory.Multiline = true;
+            txtHistory.ScrollBars = ScrollBars.Both;
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -41,5 +43,6 @@ namespace Contact_Tracing_App
             txtHistory.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
+
     }
 }

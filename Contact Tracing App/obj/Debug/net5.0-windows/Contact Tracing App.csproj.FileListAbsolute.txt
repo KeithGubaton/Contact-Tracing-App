@@ -17,3 +17,4 @@ C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug
 C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact Tracing App.pdb
 C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact Tracing App.genruntimeconfig.cache
 C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact_Tracing_App.Form2.resources
+C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact_Tracing_App.Properties.Resources.resources
