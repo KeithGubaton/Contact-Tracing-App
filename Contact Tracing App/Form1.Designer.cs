@@ -54,7 +54,8 @@ namespace Contact_Tracing_App
             // 
             // btnEnter
             // 
-            this.btnEnter.Location = new System.Drawing.Point(216, 103);
+            this.btnEnter.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnEnter.Location = new System.Drawing.Point(346, 188);
             this.btnEnter.Name = "btnEnter";
             this.btnEnter.Size = new System.Drawing.Size(75, 23);
             this.btnEnter.TabIndex = 0;
@@ -65,60 +66,67 @@ namespace Contact_Tracing_App
             // labelname
             // 
             this.labelname.AutoSize = true;
-            this.labelname.Location = new System.Drawing.Point(19, 106);
+            this.labelname.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelname.Location = new System.Drawing.Point(25, 161);
             this.labelname.Name = "labelname";
-            this.labelname.Size = new System.Drawing.Size(39, 15);
+            this.labelname.Size = new System.Drawing.Size(45, 15);
             this.labelname.TabIndex = 1;
             this.labelname.Text = "Name";
             // 
             // labelAddress
             // 
             this.labelAddress.AutoSize = true;
-            this.labelAddress.Location = new System.Drawing.Point(19, 160);
+            this.labelAddress.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelAddress.Location = new System.Drawing.Point(25, 215);
             this.labelAddress.Name = "labelAddress";
-            this.labelAddress.Size = new System.Drawing.Size(49, 15);
+            this.labelAddress.Size = new System.Drawing.Size(62, 15);
             this.labelAddress.TabIndex = 3;
             this.labelAddress.Text = "Address";
             // 
             // labelContact
             // 
             this.labelContact.AutoSize = true;
-            this.labelContact.Location = new System.Drawing.Point(19, 186);
+            this.labelContact.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelContact.Location = new System.Drawing.Point(25, 241);
             this.labelContact.Name = "labelContact";
-            this.labelContact.Size = new System.Drawing.Size(71, 15);
+            this.labelContact.Size = new System.Drawing.Size(90, 15);
             this.labelContact.TabIndex = 4;
             this.labelContact.Text = "Contact No.";
             // 
             // labelDate
             // 
             this.labelDate.AutoSize = true;
-            this.labelDate.Location = new System.Drawing.Point(19, 212);
+            this.labelDate.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelDate.Location = new System.Drawing.Point(25, 267);
             this.labelDate.Name = "labelDate";
-            this.labelDate.Size = new System.Drawing.Size(31, 15);
+            this.labelDate.Size = new System.Drawing.Size(40, 15);
             this.labelDate.TabIndex = 5;
             this.labelDate.Text = "Date";
             // 
             // labelTime
             // 
             this.labelTime.AutoSize = true;
-            this.labelTime.Location = new System.Drawing.Point(19, 239);
+            this.labelTime.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelTime.Location = new System.Drawing.Point(25, 294);
             this.labelTime.Name = "labelTime";
-            this.labelTime.Size = new System.Drawing.Size(33, 15);
+            this.labelTime.Size = new System.Drawing.Size(39, 15);
             this.labelTime.TabIndex = 6;
             this.labelTime.Text = "Time";
             // 
             // labelage
             // 
             this.labelage.AutoSize = true;
-            this.labelage.Location = new System.Drawing.Point(22, 132);
+            this.labelage.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelage.Location = new System.Drawing.Point(25, 188);
             this.labelage.Name = "labelage";
-            this.labelage.Size = new System.Drawing.Size(28, 15);
+            this.labelage.Size = new System.Drawing.Size(33, 15);
             this.labelage.TabIndex = 7;
             this.labelage.Text = "Age";
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(216, 135);
+            this.btnClear.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnClear.Location = new System.Drawing.Point(346, 215);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 23);
             this.btnClear.TabIndex = 8;
@@ -128,7 +136,8 @@ namespace Contact_Tracing_App
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(216, 193);
+            this.btnExit.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnExit.Location = new System.Drawing.Point(346, 267);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 9;
@@ -138,49 +147,56 @@ namespace Contact_Tracing_App
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(96, 104);
+            this.txtName.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtName.Location = new System.Drawing.Point(120, 158);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(100, 23);
+            this.txtName.Size = new System.Drawing.Size(220, 24);
             this.txtName.TabIndex = 10;
             // 
             // txtAddress
             // 
-            this.txtAddress.Location = new System.Drawing.Point(96, 157);
+            this.txtAddress.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAddress.Location = new System.Drawing.Point(120, 212);
             this.txtAddress.Name = "txtAddress";
-            this.txtAddress.Size = new System.Drawing.Size(100, 23);
+            this.txtAddress.Size = new System.Drawing.Size(220, 24);
             this.txtAddress.TabIndex = 11;
             // 
             // txtContact
             // 
-            this.txtContact.Location = new System.Drawing.Point(96, 183);
+            this.txtContact.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtContact.Location = new System.Drawing.Point(120, 238);
             this.txtContact.Name = "txtContact";
-            this.txtContact.Size = new System.Drawing.Size(100, 23);
+            this.txtContact.Size = new System.Drawing.Size(220, 24);
             this.txtContact.TabIndex = 12;
             // 
             // txtDate
             // 
-            this.txtDate.Location = new System.Drawing.Point(96, 209);
+            this.txtDate.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtDate.Location = new System.Drawing.Point(120, 264);
             this.txtDate.Name = "txtDate";
-            this.txtDate.Size = new System.Drawing.Size(100, 23);
+            this.txtDate.Size = new System.Drawing.Size(220, 24);
             this.txtDate.TabIndex = 13;
             // 
             // txtTime
             // 
-            this.txtTime.Location = new System.Drawing.Point(96, 236);
+            this.txtTime.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtTime.Location = new System.Drawing.Point(120, 291);
             this.txtTime.Name = "txtTime";
-            this.txtTime.Size = new System.Drawing.Size(100, 23);
+            this.txtTime.Size = new System.Drawing.Size(220, 24);
             this.txtTime.TabIndex = 14;
             // 
             // txtAge
             // 
-            this.txtAge.Location = new System.Drawing.Point(96, 129);
+            this.txtAge.Font = new System.Drawing.Font("Lucida Sans Unicode", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtAge.Location = new System.Drawing.Point(120, 185);
             this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(100, 23);
+            this.txtAge.Size = new System.Drawing.Size(220, 24);
             this.txtAge.TabIndex = 15;
             // 
             // btnDisplay
             // 
-            this.btnDisplay.Location = new System.Drawing.Point(216, 164);
+            this.btnDisplay.Font = new System.Drawing.Font("Lucida Sans", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnDisplay.Location = new System.Drawing.Point(346, 241);
             this.btnDisplay.Name = "btnDisplay";
             this.btnDisplay.Size = new System.Drawing.Size(75, 23);
             this.btnDisplay.TabIndex = 16;
@@ -191,9 +207,9 @@ namespace Contact_Tracing_App
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(28, 30);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(77, 75);
+            this.pictureBox1.Size = new System.Drawing.Size(104, 98);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
@@ -201,9 +217,9 @@ namespace Contact_Tracing_App
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(96, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(153, 30);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(209, 75);
+            this.pictureBox2.Size = new System.Drawing.Size(268, 99);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 18;
             this.pictureBox2.TabStop = false;
@@ -212,8 +228,8 @@ namespace Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(309, 277);
+            this.BackColor = System.Drawing.Color.SlateGray;
+            this.ClientSize = new System.Drawing.Size(452, 342);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnDisplay);

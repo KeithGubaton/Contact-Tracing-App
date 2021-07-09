@@ -42,7 +42,7 @@ namespace Contact_Tracing_App
 
             String createDate = DateTime.Now.ToLongDateString();
 
-            outputFile = File.AppendText("Data-" + createDate + ".txt");
+            outputFile = File.AppendText("Data_" + createDate + ".txt");
             outputFile.WriteLine("Name:" + txtName.Text);
             outputFile.WriteLine("Age:" + txtAge.Text);
             outputFile.WriteLine("Address: " + txtAddress.Text);
@@ -66,7 +66,5 @@ namespace Contact_Tracing_App
             //    MessageBox.Show(inputFile.ReadLine());
             //}
         }
-
-
     }
 }
