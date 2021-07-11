@@ -19,10 +19,27 @@ namespace Contact_Tracing_App
 
         private void TYMessage_Load(object sender, EventArgs e)
         {
-            labelMessage.Text = "You have contributed greatly in helping us " +
-                                    "  monitor the ongoing pandemic! " +
-                               "We wish you good health and stay safe always!";
+            labelTY.Text = "thank you for filling out " +
+            "\n \t this form!";
+            labelTY.Font = new Font("League Spartan", 16, FontStyle.Regular);
+            labelMessage.Text = "You have contributed greatly " +
+                "\n in helping us monitor the " +
+            "\n\t   ongoing pandemic! " +
+            "\n\t We wish you good health" +
+            "\n and stay safe always!";
             labelMessage.Font = new Font ("League Spartan", 14, FontStyle.Regular);
+        }
+
+        private void linkLabelNew_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Form1 FillForm = new Form1();
+            FillForm.Show();
+        }
+
+        private void linkLabelAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }
