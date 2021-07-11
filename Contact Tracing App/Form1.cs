@@ -26,7 +26,6 @@ namespace Contact_Tracing_App
             txtAddress.Clear();
             txtDate.Clear();
             txtTime.Clear();
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -53,6 +52,13 @@ namespace Contact_Tracing_App
             this.Hide();
             TYMessage tY = new TYMessage();
             tY.Show();
+        }
+
+        private void btnAdmin_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Administrator admin = new Administrator();
+            admin.Show();
         }
     }
 }

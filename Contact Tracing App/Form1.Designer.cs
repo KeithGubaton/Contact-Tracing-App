@@ -50,6 +50,7 @@ namespace Contact_Tracing_App
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAdmin = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -257,6 +258,7 @@ namespace Contact_Tracing_App
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(181)))), ((int)(((byte)(229)))), ((int)(((byte)(207)))));
+            this.panel2.Controls.Add(this.btnAdmin);
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.txtAge);
             this.panel2.Controls.Add(this.labelAddress);
@@ -288,6 +290,19 @@ namespace Contact_Tracing_App
             this.label1.Size = new System.Drawing.Size(293, 33);
             this.label1.TabIndex = 17;
             this.label1.Text = "Please fill up the form";
+            // 
+            // btnAdmin
+            // 
+            this.btnAdmin.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAdmin.BackgroundImage")));
+            this.btnAdmin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAdmin.FlatAppearance.BorderSize = 0;
+            this.btnAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAdmin.Location = new System.Drawing.Point(329, 517);
+            this.btnAdmin.Name = "btnAdmin";
+            this.btnAdmin.Size = new System.Drawing.Size(24, 31);
+            this.btnAdmin.TabIndex = 18;
+            this.btnAdmin.UseVisualStyleBackColor = true;
+            this.btnAdmin.Click += new System.EventHandler(this.btnAdmin_Click);
             // 
             // Form1
             // 
@@ -334,6 +349,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnAdmin;
     }
 }
 
