@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "bwcaOE4h/KWZM1uzFFAszd3WD5k7YFOUBClGxmVU35sKkulP9jHiTj/KK4l6PEGJMCDYoG8k95Eqsns7vOz+lw==",
+  "dgSpecHash": "6eWRjCNjoFPgvCrmFUM2aLdDOYQFRsT6afsqWrlfddR6NB0+8pTfBH3O9UBt6/TWHS3cXUYpDkYUPvHnD+H9Nw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Angeline\\source\\repos\\Contact Tracing App\\Contact Tracing App\\Contact Tracing App.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Angeline\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'MetroModernUI 1.4.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "MetroModernUI",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
 }

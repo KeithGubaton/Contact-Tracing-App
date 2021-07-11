@@ -36,8 +36,6 @@ namespace Contact_Tracing_App
 
         private void btnEnter_Click(object sender, EventArgs e)
         {
-            
-
             StreamWriter outputFile;
 
             String createDate = DateTime.Now.ToLongDateString();
@@ -51,6 +49,10 @@ namespace Contact_Tracing_App
             outputFile.WriteLine("Time: " + txtTime.Text);
             outputFile.WriteLine("================================");
             outputFile.Close();
+
+            this.Hide();
+            TYMessage tY = new TYMessage();
+            tY.Show();
         }
 
         private void btnDisplay_Click(object sender, EventArgs e)
@@ -58,13 +60,41 @@ namespace Contact_Tracing_App
             this.Hide();
             Form2 F2 = new Form2();
             F2.Show();
-            
-            
+        }
 
-           // while ( !inputFile.EndOfStream )
-           // {
-            //    MessageBox.Show(inputFile.ReadLine());
-            //}
+        private void labelname_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelDate_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void labelage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void labelAddress_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtContact_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

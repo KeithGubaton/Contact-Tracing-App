@@ -18,3 +18,8 @@ C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug
 C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact Tracing App.genruntimeconfig.cache
 C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact_Tracing_App.Form2.resources
 C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact_Tracing_App.Properties.Resources.resources
+C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\bin\Debug\net5.0-windows\MetroFramework.Design.dll
+C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\bin\Debug\net5.0-windows\MetroFramework.Fonts.dll
+C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\bin\Debug\net5.0-windows\MetroFramework.dll
+C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact Tracing App.csproj.CopyComplete
+C:\Users\Angeline\source\repos\Contact Tracing App\Contact Tracing App\obj\Debug\net5.0-windows\Contact_Tracing_App.TYMessage.resources
