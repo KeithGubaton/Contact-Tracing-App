@@ -45,7 +45,6 @@ namespace Contact_Tracing_App
             this.txtDate = new System.Windows.Forms.TextBox();
             this.txtTime = new System.Windows.Forms.TextBox();
             this.txtAge = new System.Windows.Forms.TextBox();
-            this.btnDisplay = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -81,7 +80,6 @@ namespace Contact_Tracing_App
             this.labelname.Size = new System.Drawing.Size(53, 20);
             this.labelname.TabIndex = 1;
             this.labelname.Text = "Name";
-            this.labelname.Click += new System.EventHandler(this.labelname_Click);
             // 
             // labelAddress
             // 
@@ -92,7 +90,6 @@ namespace Contact_Tracing_App
             this.labelAddress.Size = new System.Drawing.Size(67, 20);
             this.labelAddress.TabIndex = 3;
             this.labelAddress.Text = "Address";
-            this.labelAddress.Click += new System.EventHandler(this.labelAddress_Click);
             // 
             // labelContact
             // 
@@ -113,7 +110,6 @@ namespace Contact_Tracing_App
             this.labelDate.Size = new System.Drawing.Size(45, 20);
             this.labelDate.TabIndex = 5;
             this.labelDate.Text = "Date";
-            this.labelDate.Click += new System.EventHandler(this.labelDate_Click);
             // 
             // labelTime
             // 
@@ -135,7 +131,6 @@ namespace Contact_Tracing_App
             this.labelage.Size = new System.Drawing.Size(40, 20);
             this.labelage.TabIndex = 7;
             this.labelage.Text = "Age";
-            this.labelage.Click += new System.EventHandler(this.labelage_Click);
             // 
             // btnClear
             // 
@@ -159,7 +154,7 @@ namespace Contact_Tracing_App
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnExit.ForeColor = System.Drawing.Color.White;
-            this.btnExit.Location = new System.Drawing.Point(145, 490);
+            this.btnExit.Location = new System.Drawing.Point(249, 490);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(74, 34);
             this.btnExit.TabIndex = 9;
@@ -196,7 +191,6 @@ namespace Contact_Tracing_App
             this.txtContact.Name = "txtContact";
             this.txtContact.Size = new System.Drawing.Size(233, 23);
             this.txtContact.TabIndex = 12;
-            this.txtContact.TextChanged += new System.EventHandler(this.txtContact_TextChanged);
             // 
             // txtDate
             // 
@@ -228,21 +222,6 @@ namespace Contact_Tracing_App
             this.txtAge.Size = new System.Drawing.Size(233, 23);
             this.txtAge.TabIndex = 15;
             // 
-            // btnDisplay
-            // 
-            this.btnDisplay.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(91)))), ((int)(((byte)(89)))));
-            this.btnDisplay.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(91)))), ((int)(((byte)(89)))));
-            this.btnDisplay.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDisplay.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDisplay.ForeColor = System.Drawing.Color.White;
-            this.btnDisplay.Location = new System.Drawing.Point(249, 490);
-            this.btnDisplay.Name = "btnDisplay";
-            this.btnDisplay.Size = new System.Drawing.Size(74, 34);
-            this.btnDisplay.TabIndex = 16;
-            this.btnDisplay.Text = "Display";
-            this.btnDisplay.UseVisualStyleBackColor = false;
-            this.btnDisplay.Click += new System.EventHandler(this.btnDisplay_Click);
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -263,7 +242,6 @@ namespace Contact_Tracing_App
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(353, 548);
             this.panel1.TabIndex = 19;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pictureBox2
             // 
@@ -288,7 +266,6 @@ namespace Contact_Tracing_App
             this.panel2.Controls.Add(this.btnEnter);
             this.panel2.Controls.Add(this.txtTime);
             this.panel2.Controls.Add(this.btnClear);
-            this.panel2.Controls.Add(this.btnDisplay);
             this.panel2.Controls.Add(this.txtDate);
             this.panel2.Controls.Add(this.labelname);
             this.panel2.Controls.Add(this.txtContact);
@@ -351,7 +328,6 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.TextBox txtTime;
-        private System.Windows.Forms.Button btnDisplay;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;

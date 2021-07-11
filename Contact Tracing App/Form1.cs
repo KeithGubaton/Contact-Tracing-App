@@ -54,47 +54,5 @@ namespace Contact_Tracing_App
             TYMessage tY = new TYMessage();
             tY.Show();
         }
-
-        private void btnDisplay_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Form2 F2 = new Form2();
-            F2.Show();
-        }
-
-        private void labelname_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelDate_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void labelage_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void labelAddress_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void txtContact_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

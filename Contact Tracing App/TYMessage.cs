@@ -39,7 +39,9 @@ namespace Contact_Tracing_App
 
         private void linkLabelAdmin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
+            this.Hide();
+            Administrator admin = new Administrator();
+            admin.Show();
         }
     }
 }
