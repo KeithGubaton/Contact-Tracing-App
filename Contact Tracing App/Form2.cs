@@ -44,5 +44,17 @@ namespace Contact_Tracing_App
             txtHistory.Text = inputFile.ReadToEnd();
             inputFile.Close();
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnLogOut_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Administrator admin = new Administrator();
+            admin.Show();
+        }
     }
 }

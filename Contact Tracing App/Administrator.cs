@@ -38,5 +38,17 @@ namespace Contact_Tracing_App
                 ErrorMessage.Text = "Incorrect Username/Password. Please try again.";
             }
         }
+
+        private void Back_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            Form1 FillForm = new Form1();
+            FillForm.Show();
+        }
+
+        private void Exit_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

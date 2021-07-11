@@ -40,6 +40,8 @@ namespace Contact_Tracing_App
             this.labelLogin = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.Back = new System.Windows.Forms.LinkLabel();
+            this.Exit = new System.Windows.Forms.LinkLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -48,6 +50,8 @@ namespace Contact_Tracing_App
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(91)))), ((int)(((byte)(89)))));
+            this.panel1.Controls.Add(this.Exit);
+            this.panel1.Controls.Add(this.Back);
             this.panel1.Controls.Add(this.ErrorMessage);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.labelPass);
@@ -153,6 +157,32 @@ namespace Contact_Tracing_App
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // Back
+            // 
+            this.Back.AutoSize = true;
+            this.Back.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Back.LinkColor = System.Drawing.Color.White;
+            this.Back.Location = new System.Drawing.Point(79, 332);
+            this.Back.Name = "Back";
+            this.Back.Size = new System.Drawing.Size(92, 16);
+            this.Back.TabIndex = 7;
+            this.Back.TabStop = true;
+            this.Back.Text = "Back to Form";
+            this.Back.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Back_LinkClicked);
+            // 
+            // Exit
+            // 
+            this.Exit.AutoSize = true;
+            this.Exit.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Exit.LinkColor = System.Drawing.Color.White;
+            this.Exit.Location = new System.Drawing.Point(231, 332);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(30, 16);
+            this.Exit.TabIndex = 8;
+            this.Exit.TabStop = true;
+            this.Exit.Text = "Exit";
+            this.Exit.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.Exit_LinkClicked);
+            // 
             // Administrator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -161,7 +191,9 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Administrator";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Administrator";
             this.Load += new System.EventHandler(this.Administrator_Load);
             this.panel1.ResumeLayout(false);
@@ -184,5 +216,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label labelLogin;
         private System.Windows.Forms.Label ErrorMessage;
+        private System.Windows.Forms.LinkLabel Exit;
+        private System.Windows.Forms.LinkLabel Back;
     }
 }
